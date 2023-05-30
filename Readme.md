@@ -1,1 +1,1 @@
-# Deply PHP Laravel Codeigniter Website on Docker
+# Deploy PHP Laravel Codeigniter Website on Docker
