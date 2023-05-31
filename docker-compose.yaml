@@ -55,7 +55,7 @@ services:
   mariadb:
     image: mariadb:latest
     environment:
-      MYSQL_ROOT_PASSWORD: random_password
+      MYSQL_ROOT_PASSWORD: rey7gtiudtsdg
       MYSQL_DATABASE: webtoolshive
       MYSQL_USER: muqeet
       MYSQL_PASSWORD: "12345678"
@@ -67,8 +67,8 @@ services:
     image: phpmyadmin/phpmyadmin:latest
     environment:
       PMA_HOST: mariadb
-      MYSQL_ROOT_PASSWORD: random_password
+      MYSQL_ROOT_PASSWORD: rey7gtiudtsdg
     ports:
-      - "8081:80"
+      - "8095:80"
     networks:
       - proxynetwork
